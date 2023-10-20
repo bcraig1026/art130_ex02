@@ -142,5 +142,25 @@ footer {
 }
 
 .logos {
-    
+    display: flex;
+    height: 100%;
+    border: solid 1px black;
+}
+
+.logos img {
+    display: block;
+    height: 2rem;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.logos img:first-of-type {
+    padding-right: 0.75rem;
+    border-right: solid 1px black;
+}
+
+.copyright {
+    font-family: 'Helvetica Neue Thin';
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
 }
