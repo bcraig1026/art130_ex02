@@ -37,3 +37,110 @@
     src: url('HelveticaNeueLTStd-Roman.woff2') format('woff2');
     src: url('HelveticaNeueLTStd-Roman.woff') format('woff');
 }
+
+html {
+    background-color: beige;
+}
+
+body {
+    font-family: 'Helvetica Neue Roman';
+}
+
+.wrapper {
+    position: relative;
+    background-color: rgb(206, 60, 15);
+    margin: 4rem 4rem 0 4rem;
+    padding: 2rem;
+}
+
+.kicker {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-family: 'sabotage';
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 3.5rem;
+}
+
+h1 .larger-names {
+    font-size: 5rem;
+    line-height: 0.8;
+    margin-top: 3.5rem;
+}
+
+h1 .wide-letterspacing {
+    letter-spacing: 0.1em;
+}
+
+h1 .title {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    letter-spacing: 0.1em;
+    font-size: 0.7rem;
+}
+
+img.main-image {
+    width: 100%;
+    margin-top: -18%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0.7rem 4rem 0 4rem;
+    font-family: 'Helvetica Neue Thin Condensed';
+    font-size: 2rem;
+}
+
+.left {
+    display: flex;
+    min-width: 18ch;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-inner > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.topline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.largename {
+    font-size: 2rem;
+    flex-wrap: nowrap;
+}
+
+.tiny {
+    font-size: 0.5rem;
+}
+
+.smallname {
+    font-size: 1.35rem;
+    flex-wrap: nowrap;
+}
+
+.smallwide{
+    font-family: 'Helvetica Neue Thin';
+    font-size: 1rem;
+}
+
+.logos {
+    
+}
